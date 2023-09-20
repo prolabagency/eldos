@@ -1,0 +1,1656 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .4s;
+    text-decoration: none;
+    user-select: none;
+}
+
+/* header stylesheet */
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #091242;
+}
+
+.logo p{
+    color: #FFF;
+    font-family: Krub;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135.023%; /* 18.903px */
+}
+
+.logo h1{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.logo span{
+    color: #FFDA56;
+    font-family: Rubik;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* full container */
+.container{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 510px;
+    padding: 48px 10px;
+}
+
+/* start text social style */
+.bigger-box-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+}
+
+.box-header{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+/* style for text bigger box */
+.box-header .text-box .title-text h4{ 
+    color: #FFF;
+    font-family: Krub;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135.023%; 
+}
+
+.box-header .text-box .suptitle-text  p{ 
+    color: #FFF;
+    font-family: Krub;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135.023%; 
+}
+
+/* start main container */
+
+.background{
+    background-image: url(./assets/img/distribution-warehouse-with-trucks-different-capacity\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(9, 18, 66, 0.25);
+    padding: 20px 0;
+}
+
+.container-main{ 
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+
+.container-main .navblock {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.container-main a{
+    color: #FFF;
+    font-family: Krub;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135.023%; /* 21.604px */
+}
+
+.container-main a:hover{
+    color: #FFB629;
+    font-family: Krub;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135.023%; /* 21.604px */
+}
+
+.bigger-social-block{
+    display: flex;
+    gap: 20px;
+}
+
+.social-block{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.button-main button{
+    padding: 14px 10px;
+    background-color: #FFF;
+    border-radius: 14px;
+    border: none;
+}
+
+.button-main button:hover{
+    padding: 14px 18px;
+    background-color: #FFB629;
+    border-radius: 8px;
+    border: none;
+}
+
+.container-main-title{
+    margin: 200px 300px;
+}
+
+.container-main-title .text-content {
+    width: 684px;
+}
+
+.container-main-title .text-content .title-main h1{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container-main-title .text-content .suptitle-main p{
+    margin-top: 20px;
+    color: #fff;
+    font-family: Krub;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.523%; /* 24.244px */
+}
+
+.container-main-title .text-content button{
+    border-radius: 4px;
+    margin-top: 40px;
+    padding: 20px 48px;
+    border: none;
+    color: #23212A;
+    font-family: Krub;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135.023%; /* 21.604px */
+    background: linear-gradient(94deg, #FFB629 -1.21%, #FFDA56 50.75%, #FFD7A6 102.71%);
+}
+
+.container-main-title button:hover{
+    -webkit-box-shadow: 0px 18px 22px 4px rgba(255, 218, 86, 0.2);
+    -moz-box-shadow: 0px 18px 22px 4px rgba(255, 218, 86, 0.2);
+    box-shadow: 0px 18px 22px 4px rgba(255, 218, 86, 0.2);
+}
+
+/* start after main info block */
+
+.container-info{
+    display: flex;
+    justify-content: center;
+    padding: 120px 10px;
+    gap: 150px;
+}
+
+.suptitle-info{
+    padding: 3px 10px;
+    background: rgba(232, 232, 232, 0.50);
+    position: relative;
+    width: 110px;
+    text-align: center;
+}
+
+.suptitle-info::before{
+    content: "|";
+    position: absolute;
+    top: -7.5px;
+    left: -9px;
+    font-size: 35px;
+    color: #FFB629;
+    height: 20px;
+    width: 20px;
+}
+
+.suptitle-info span{
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container-info .left-info-bar .title-info h1{
+    margin-top: 15px;
+    width: 294px;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.right-info-bar{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(200px,435px));
+    grid-template-rows: repeat(2,minmax(200px,200px));
+    gap: 30px;
+}
+
+.container-info .right-info-bar .right-img-text-info{
+    display: flex;
+    gap: 26px;
+}
+
+.container-info  .title-info-logic h1{
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container-info .suptitle-info-logic p{
+    margin-top: 22px;
+    width: 270px;
+    color: #666C89;
+    font-family: Krub;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.523%; /* 24.244px */
+}
+
+.relative{
+    position: relative;
+}
+
+.second-section-backgraund img{
+    width: 100%;
+}
+
+.backgraound-for-delivery {
+    display: flex;
+    gap: 140px;
+    position: absolute;
+    background: #FFF;
+    padding: 100px 70px;
+
+    bottom: -350px;
+    left: 15%;
+    right: 15%;
+}
+
+.title-for-delivery h1{
+    width: 472px;
+    margin-top: 20px;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text-info-delivery p{
+    margin-top: 40px;
+    width: 464px;
+    color: #666C89;
+    font-family: Krub;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.523%; /* 24.244px */
+    margin-bottom: 40px;
+}
+
+.options{
+    margin-top: 20px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.text-options p{
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right-img-delivery{
+    position: relative;
+}
+
+.img-bottom-woman{
+    position: absolute;
+    bottom: 10px;
+    left: -45px;
+    padding: 10px;
+    background: #fff;
+}
+
+.container-clients{
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.box{
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(94deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+
+.left-count-package{
+    padding: 30px 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: .5px solid black ;
+    border-right: .2px solid black ;
+    border-bottom: .5px solid black ;
+}
+
+.left-count-package h1{
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.left-count-package  p{
+    color: #1C1F35;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.right-count-satisfied{
+    padding: 30px 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: .5px solid black ;
+    border-left: .2px solid black ;
+    border-bottom: .5px solid black ;
+}
+
+.right-count-satisfied h1{
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.right-count-satisfied .satishfied p{
+    color: #1C1F35;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.title-transporting h1{
+    margin-top: 100px;
+    margin-bottom: 35px;
+    color: #1C1F35;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.transporting-bigger-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.box-for-transporting{
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    height: auto;
+    fill: linear-gradient(0deg, #091242 14.34%, rgba(60, 60, 60, 0.00) 43.86%);
+    background-blend-mode: multiply;
+}
+
+.title-transporing{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    user-select: none;
+}
+
+.title-transporing h1{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.suptitle-transporing{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.suptitle-transporing p{
+    color: #FFB629;
+    font-family: Krub;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.523%; /* 24.244px */
+    user-select: none;
+}
+
+.relative-sec{
+    position: relative;
+    height: 200px;
+}
+
+.background-sec{
+    position: absolute;
+    top: -180px;
+    z-index: -1;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);
+}
+
+.container-feat-back{
+    padding: 0 270px ;
+}
+
+.custemer-say h1{
+    margin-top: 20px;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+.container-feat-all{
+    display: flex;
+    gap: 120px;
+    padding: 0 200px ;
+}
+
+.mini-container-feat-back{
+    margin-top: 40px;
+    width: 600px;
+    color: #091242;
+    padding: 40px;
+    background: #F4F4F4;
+    /* transition: .1s; */
+}
+
+.mini-container-feat-back:hover{
+    padding: 40px;
+    background: #091242;
+    color: #F4F4F4;
+    /* transition: .1s; */
+}
+
+
+
+.box-feat-upper{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.left-custemer{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    width: 400px;
+}
+
+.left-custemer .img-custemer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.name h1{
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.3s;
+}
+
+.company p{
+    font-family: Krub;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.523%; /* 24.244px */
+    transition: .3s;
+}
+
+.box-feat-hight{
+    margin-top: 30px;
+    font-family: Krub;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 151.523%; /* 24.244px */
+}
+
+
+
+.container-service{
+    margin-top: 100px;
+    padding: 0 16%;
+}
+
+.title-service{
+    position: relative;
+    background-color: #F4F4F4;
+    padding: 3px 10px;
+    text-align: center;
+    display: inline-flex;
+}
+
+.title-service span{
+    color: #1C1F35;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title-service::before{
+    content: "|";
+    position: absolute;
+    top: -7.5px;
+    left: -5.2px;
+    font-size: 35px;
+    color: #FFB629;
+    height: 20px;
+    width: 20px;
+}
+
+
+.suptitle-service h1{
+    color: #1C1F35;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.container-workman{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box-workman {
+    margin-top: 70px;
+    width: 350px;
+    height: 435px;
+    position: relative;
+    /* background: greenyellow; */
+}
+
+.box-workman img{
+    width: 100%;
+    height: 400px;
+}
+
+.lower-position{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #091242;
+    bottom: 0;
+}
+
+.lower-position .who-name h2{
+    padding: 25px 0 0 20px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lower-position .job-position p{
+    color: #FFF;
+    font-family: Krub;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.523%; /* 24.244px */
+    padding: 2px 0 0  20px;
+}
+
+.social-icons{
+    position: absolute;
+    bottom: 85px;
+    right: 0;
+    background: linear-gradient(94deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    padding: 14px 10px;
+}
+
+
+footer{
+    margin-top: 100px;
+    background-image: url(./assets/img/industrial-port-container-yard.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.container-footer{
+    padding: 6% 14%;
+    width: 100%;
+    position: absolute;
+    height: 150px;
+    background-color: #091242;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap:200px;
+}
+
+.container-footer p{
+    color: #FFF;
+    font-family: Krub;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135.023%; /* 18.903px */
+}
+
+.container-footer h1{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container-footer .logo span{
+    color: #FFDA56;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+@media (max-width:1600px) {
+
+    .container-feat-all {
+        display: flex;
+        gap: 60px;
+        padding: 0 139px;
+    }
+
+
+    .container-footer {
+        padding: 6% 10%;
+        width: 100%;
+        position: absolute;
+        height: 150px;
+        background-color: #091242;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        gap: 120px;
+    }
+
+    .img-top-airforce img{
+        width: 100%;
+    }
+
+    .img-bottom-woman img{
+        width: 100%;
+    }
+
+    .container-main-title {
+        margin: 200px 81px;
+    }
+}
+
+@media (max-width:1550px) {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 446px;
+        padding: 48px 10px;
+    }
+    
+}
+
+@media (max-width:1500px) {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 300px;
+        padding: 48px 10px;
+    }
+
+    .img-bottom-woman {
+        position: absolute;
+        bottom: 108px;
+        left: -100px;
+        padding: 13px;
+        background: #fff;
+    }
+
+}
+
+@media (max-width:1450px) {
+
+    .container-main-title .text-content .title-main h1 {
+        color: #FFF;
+        font-family: Rubik;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .container-main-title .text-content .suptitle-main p {
+        margin-top: 20px;
+        color: #fff;
+        font-family: Krub;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 151.523%;
+    }
+
+    .container-main-title .text-content button {
+        border-radius: 4px;
+        margin-top: 40px;
+        padding: 13px 33px;
+        border: none;
+        color: #23212A;
+        font-family: Krub;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 135.023%;
+        background: linear-gradient(94deg, #FFB629 -1.21%, #FFDA56 50.75%, #FFD7A6 102.71%);
+    }
+
+    .container-feat-all {
+        display: flex;
+        gap: 60px;
+        padding: 0 70px;
+    }
+
+    .container-info {
+        display: flex;
+        justify-content: center;
+        padding: 120px 10px;
+        gap: 81px;
+    }
+    
+}
+
+@media (max-width:1400px) {
+    .container-info {
+        display: flex;
+        justify-content: center;
+        padding: 70px 10px;
+        gap: 68px;
+        flex-wrap: wrap;
+    }
+
+    .img-bottom-woman {
+        width: 100%;
+    }
+
+
+    .left-custemer {
+        gap: 30px;
+        display: flex;
+        align-items: center;
+        transition: .3s;
+        width: 331px;
+    }
+
+    .box-feat-upper {
+        display: flex;
+        align-items: center;
+        gap: 199px;
+    }
+
+    .mini-container-feat-back {
+        margin-top: 40px;
+        width: 554px;
+        color: #091242;
+        padding: 40px;
+        background: #F4F4F4;
+        /* transition: .1s; */
+    }
+
+    .right-info-bar {
+        display: grid;
+        grid-template-columns: repeat(2,minmax(200px,390px));
+        grid-template-rows: repeat(2,minmax(200px,200px));
+        gap: 25px;
+    }
+
+    .text-info-delivery p {
+        margin-top: 40px;
+        width: 346px;
+        color: #666C89;
+        font-family: Krub;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 151.523%;
+        margin-bottom: 40px;
+    }
+
+    .title-for-delivery h1 {
+        width: 435px;
+        margin-top: 20px;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .backgraound-for-delivery {
+        display: flex;
+        gap: 15px;
+        position: absolute;
+        background: #FFF;
+        padding: 60px 70px;
+        bottom: -350px;
+        left: 15%;
+        right: 15%;
+    }
+
+    .img-options img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .text-options p {
+        color: #1C1F35;
+        font-family: Rubik;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .right-count-satisfied h1 {
+        color: #1C1F35;
+        font-family: Rubik;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .left-count-package h1 {
+        color: #1C1F35;
+        font-family: Rubik;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .box-for-transporting img{
+       width: 245px;
+    }
+
+    .right-quets img{
+        width: 49px;
+    }
+
+    .container-footer .logo span {
+        color: #FFDA56;
+        font-family: Rubik;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .container-footer .logo h1 {
+        color: #fff;
+        font-family: Rubik;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+
+
+@media (max-width:1300px) {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 171px;
+        padding: 48px 10px;
+    }
+
+
+    .img-bottom-woman {
+        /* width: fit-content !important; */
+        width: 77%;
+    }
+
+    .container-service {
+        margin-top: 100px;
+        padding: 0 6%;
+    }
+
+
+}
+
+
+@media (max-width:1240px) {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 72px;
+        padding: 48px 10px;
+    }
+
+    .background {
+        background-image: url(./assets/img/distribution-warehouse-with-trucks-different-capacity\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 775px;
+    }
+
+    .mini-container-feat-back {
+        margin-top: 40px;
+        width: 493px;
+        color: #091242;
+        padding: 40px;
+        background: #F4F4F4;
+        /* transition: .1s; */
+    }
+
+    .container-info {
+        display: flex;
+        justify-content: center;
+        padding: 63px 10px;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .img-bottom-woman {
+        /* width: fit-content !important; */
+        width: 130%;
+    }
+
+    .container-main {
+        display: flex;
+        align-items: center;
+        gap: 419px;
+    }
+
+}
+
+@media (max-width:1170px) {
+    .container-feat-all {
+        display: flex;
+        gap: 60px;
+        padding: 0 44px;
+    }
+}
+
+@media (max-width:1140px) {
+
+    .container-feat-all {
+        display: flex;
+        gap: 60px;
+        padding: 0 44px;
+    }
+
+}
+
+@media (max-width:1100px) {
+
+    .container-main-title {
+        margin: 81px 81px;
+    }
+    
+    .container-main {
+        display: flex;
+        align-items: center;
+        gap: 238px;
+    }
+
+
+    .box-for-transporting img {
+        width: 219px;
+    }
+
+    .container-feat-all {
+        display: flex;
+        gap: 31px;
+        padding: 0 22px;
+    }
+
+    .right-img-delivery {
+        position: relative;
+        display: none;
+    }
+
+    .container-footer {
+        padding: 1% 3%;
+        width: 100%;
+        position: absolute;
+        height: 150px;
+        background-color: #091242;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        gap: 64px;
+    }
+
+    .img-bottom-woman {
+        /* width: fit-content !important; */
+        width: 99%;
+        display: none;
+    }
+
+    .container-info .suptitle-info-logic p {
+        margin-top: 22px;
+        width: 183px;
+        color: #666C89;
+        font-family: Krub;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 151.523%;
+    }
+
+    .container-info .left-info-bar .title-info h1 {
+        margin-top: 15px;
+        width: 185px;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .container-feat-all {
+        display: flex;
+        gap: 31px;
+        padding: 0 22px;
+    }
+
+}
+
+
+@media (max-width:1000px) {
+
+    .container-info .left-info-bar .title-info h1 {
+        margin-top: 15px;
+        width: 293px;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .right-info-bar {
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: repeat(2,minmax(200px,390px));
+        grid-template-rows: repeat(2,minmax(200px,200px));
+        gap: 25px;
+    }
+
+    .container-main-title .text-content {
+        width: 601px;
+    }
+
+    footer {
+        margin-top: 100px;
+        background-image: url(./assets/img/industrial-port-container-yard.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 370px;
+        position: relative;
+    }
+
+    .container .bigger-box-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 39px;
+        display: none;
+    }
+
+    .left-count-package {
+        padding: 30px 30px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border-top: 0.5px solid black;
+        border-right: 0.2px solid black;
+        border-bottom: 0.5px solid black;
+    }
+
+    .mini-container-feat-back {
+        margin-top: 40px;
+        width: 431px;
+        color: #091242;
+        padding: 19px;
+        background: #F4F4F4;
+        /* transition: .1s; */
+    }
+
+    .box-workman {
+        margin-top: 70px;
+        width: 455px;
+        height: 332px;
+        position: relative;
+        background: greenyellow;
+    }
+
+    .container-service {
+        margin-top: 100px;
+        padding: 0 2%;
+    }
+
+    .container-footer .logo{
+        display: none;
+    }
+
+    .container-footer .bigger-box-header{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .right-count-satisfied {
+        padding: 30px 29px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border-top: 0.5px solid black;
+        border-left: 0.2px solid black;
+        border-bottom: 0.5px solid black;
+    }
+}
+
+@media (max-width:960px) {
+    .container-feat-all {
+        display: flex;
+        gap: 31px;
+        padding: 0 22px;
+        flex-wrap: wrap;
+    }
+
+    .container-workman {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .transporting-bigger-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .background-sec {
+        position: absolute;
+        top: -401px;
+        z-index: -1;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);
+    }
+
+    .container-feat-all {
+        display: flex;
+        gap: 31px;
+        padding: 0 186px;
+        flex-wrap: wrap;
+    }
+
+    .container-service {
+        margin-top: 100px;
+        padding: 0px 30%;
+    }
+
+    .backgraound-for-delivery {
+        display: flex;
+        gap: 15px;
+        position: absolute;
+        background: #FFF;
+        padding: 60px 70px;
+        bottom: -394px;
+        left: 15%;
+        right: 15%;
+    }
+
+    .container-info {
+        display: flex;
+        justify-content: center;
+        padding: 63px 108px;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .container-main {
+        display: flex;
+        align-items: center;
+        gap: 103px;
+    }
+
+    .container-main-title .text-content .suptitle-main p {
+        margin-top: 20px;
+        color: #fff;
+        font-family: Krub;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 151.523%;
+    }
+
+    .container-main-title .text-content .suptitle-main p {
+        margin-top: 20px;
+        color: #fff;
+        font-family: Krub;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 151.523%;
+    }
+
+    .box-workman {
+        margin-top: 70px;
+        width: 401px;
+        height: 400px;
+        position: relative;
+        background: greenyellow;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        background-color: #09124200;
+        padding: 20px 0;
+    }
+
+    .container-main {
+        display: flex;
+        align-items: center;
+        gap: 103px;
+        display: none;
+    }
+}
+
+@media (max-width:740px) {
+    .container-main-title {
+        margin: 81px 36px;
+    }
+
+    .container-info {
+        display: flex;
+        justify-content: center;
+        padding: 63px 51px;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .backgraound-for-delivery {
+        display: flex;
+        gap: 15px;
+        position: absolute;
+        background: #FFF;
+        padding: 12px 27px;
+        bottom: -394px;
+        left: 15%;
+        right: 15%;
+    }
+
+    .title-for-delivery h1 {
+        width: 338px;
+        margin-top: 20px;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .text-info-delivery p {
+        margin-top: 40px;
+        width: 346px;
+        color: #666C89;
+        font-family: Krub;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 151.523%;
+        margin-bottom: 40px;
+    }
+
+    .title-for-delivery h1 {
+        width: 338px;
+        margin-top: 20px;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .right-count-satisfied {
+        padding: 30px 30px;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-top: .5px solid black;
+    }
+
+    .left-count-package {
+        padding: 30px 30px;
+        display: flex;
+        align-items: center;
+        border: none;
+    }
+
+    .container-clients {
+        display: flex;
+        justify-content: center;
+        margin-top: 400px;
+
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+@media (max-width:740px) {
+    .container-feat-all {
+        display: flex;
+        gap: 31px;
+        padding: 0 130px;
+        flex-wrap: wrap;
+    }
+
+    .container-feat-back {
+        padding: 0 136px;
+    }
+
+    .container-service {
+        margin-top: 100px;
+        padding: 0px 23%;
+    }
+
+    .container-footer .bigger-box-header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        margin-top: 100px;
+        background-image: url(./assets/img/industrial-port-container-yard.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 475px;
+        position: relative;
+    }
+
+    .container-footer {
+        padding: 1% 3%;
+        width: 100%;
+        position: absolute;
+        height: 233px;
+        background-color: #091242;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        gap: 64px;
+    }
+
+    .container-main-title .text-content {
+        width: 412px;
+    }
+
+    .container-main-title .text-content .title-main h1 {
+        color: #FFF;
+        font-family: Rubik;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .container-footer .box-header {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        width: 170px;
+    }
+
+    .container-footer {
+        padding: 1% 3%;
+        width: 100%;
+        position: absolute;
+        height: 368px;
+        background-color: #091242;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        gap: 64px;
+    }
+
+    footer {
+        margin-top: 100px;
+        background-image: url(./assets/img/industrial-port-container-yard.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 640px;
+        position: relative;
+    }
+
+    .right-info-bar {
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: repeat(2,minmax(200px,390px));
+        grid-template-rows: repeat(2,minmax(200px,200px));
+        gap: 25px;
+        /* flex-wrap: wrap; */
+        grid-template-columns: 1fr;
+    }
+
+    .container-footer .box-header {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        width: 269px;
+    }
+}
+
+
+@media (max-width:600px) {
+    .container-service {
+        margin-top: 100px;
+        padding: 0px 9%;
+    }
+
+    .container-feat-all {
+        display: flex;
+        gap: 31px;
+        padding: 0 48px;
+        flex-wrap: wrap;
+    }
+
+    .box-feat-upper {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+    }
+
+    .mini-container-feat-back {
+        margin-top: 40px;
+        width: 363px;
+        color: #091242;
+        padding: 19px;
+        background: #F4F4F4;
+        /* transition: .1s; */
+    }
+
+    .text-info-delivery p {
+        margin-top: 40px;
+        width: 172px;
+        color: #666C89;
+        font-family: Krub;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 151.523%;
+        margin-bottom: 40px;
+    }
+
+    .title-for-delivery h1 {
+        width: 207px;
+        margin-top: 20px;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .container-clients {
+        display: flex;
+        justify-content: center;
+        margin-top: 559px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .backgraound-for-delivery {
+        display: flex;
+        gap: 15px;
+        position: absolute;
+        background: #FFF;
+        padding: 12px 27px;
+        bottom: -575px;
+        left: 15%;
+        right: 15%;
+    }
+}
+
+@media (max-width:500px) {
+    .container-main-title .text-content {
+        width: 285px;
+    }
+}
